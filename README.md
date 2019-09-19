@@ -9,8 +9,10 @@ Tim Ren, Harrison Huang
 - [ ] Layer Normalization LSTM
 - [x] Self-Attention
 - [x] Training
+- [ ] Improve Dataloader
 
 Instead of a Bi-direction Layer Normalization LSTM, we use a non-normalizaiton bi-direction GRU version.
+And for now, the dataloader may use a large memory of your cpu, if there is any problems, make the parameter: num_MMD_NCA_Groups of "MMD_NCA_Dataset" smaller.
 
 ### Dataset:
 I clean the dance dataset of https://arxiv.org/abs/1801.07388
@@ -19,10 +21,25 @@ The cleaned dataset is provided here:
 The dataset contains 16 classes of dance. It contain 51858 sequence.
 The key of the json file is "0","1",.....,"15"
 Each key contains:
-(_ , 50, 2, 17) pose. 2 is channel, 17 is pose coordinates as a coco format.
+( _ , 50, 2, 17) pose. 2 is channel, 17 is pose coordinates as coco format.
+And each pose is normalized.
 
+<img src="/image/number_of_sequence.png" width="250">
+
+### Usage:
+Download the dataset I provided above, put it in the folder "dataset".
+It is suggested to split it by yourself, for the dataset is too large.
+
+Note: if you split the data, you need to change line 247 in train.py.
+
+And run:
+``` 
+python train.py
+``` 
 
 ### Result:
 
 ![Alt text](/image/visual_result.png)
+
+If have any question, feel free to connect me by email: xrenaa1998@gmail.com
 
