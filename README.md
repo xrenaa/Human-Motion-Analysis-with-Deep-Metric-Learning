@@ -9,6 +9,12 @@ To do:
 
 Instead of a Bi-direction Layer Normalization LSTM, we use a non-normalizaiton bi-direction GRU version.
 
-Result:
+Dataset:
+I clean the dance dataset of https://arxiv.org/abs/1801.07388
+The cleaned dataset is provided here:
 
+The dataset contains 16 classes of dance. 
+
+Result:
+![Alt text](/image/visual_result.png)
 
