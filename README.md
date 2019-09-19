@@ -30,6 +30,11 @@ And each pose is normalized.
 <img src="/image/number_of_sequence.png" width="250">
 
 ### Usage:
+```
+cd Human-Motion-Analysis-with-Deep-Metric-Learning
+mkdir log
+mkdir dataset
+```
 Download the dataset I provided above, put it in the folder "dataset".
 It is suggested to split it by yourself, for the dataset is too large.
 
