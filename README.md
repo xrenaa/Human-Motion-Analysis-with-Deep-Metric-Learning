@@ -2,6 +2,7 @@
 pytorch implement of this paper:https://arxiv.org/abs/1807.11176 (ECCV 2018)
 
 Implement by:
+
 Tim Ren, Harrison Huang
 
 ### To do:
@@ -17,6 +18,8 @@ And for now, the dataloader may use a large memory of your cpu, if there is any 
 ### Dataset:
 I clean the dance dataset of https://arxiv.org/abs/1801.07388
 The cleaned dataset is provided here:
+
+https://drive.google.com/file/d/17mUfFjPCZFyZaEyM7NwpLEptg3Vo9DuU/view?usp=sharing
 
 The dataset contains 16 classes of dance. It contain 51858 sequence.
 The key of the json file is "0","1",.....,"15"
