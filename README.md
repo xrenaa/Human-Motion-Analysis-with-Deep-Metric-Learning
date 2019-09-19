@@ -15,6 +15,8 @@ The cleaned dataset is provided here:
 
 The dataset contains 16 classes of dance. 
 
+
 Result:
+
 ![Alt text](/image/visual_result.png)
 
