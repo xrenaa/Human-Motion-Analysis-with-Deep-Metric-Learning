@@ -44,5 +44,7 @@ python train.py
 
 ![Alt text](/image/visual_result.png)
 
+### Contact:
+
 If have any question, feel free to connect me by email: xrenaa1998@gmail.com
 
