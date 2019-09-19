@@ -11,3 +11,4 @@ Instead of a Bi-direction Layer Normalization LSTM, we use a non-normalizaiton b
 
 Result:
 
+
