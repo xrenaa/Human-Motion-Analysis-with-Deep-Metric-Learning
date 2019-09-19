@@ -13,7 +13,10 @@ Tim Ren, Harrison Huang
 - [ ] Improve Dataloader
 
 Instead of a Bi-direction Layer Normalization LSTM, we use a non-normalizaiton bi-direction GRU version.
-And for now, the dataloader may use a large memory of your cpu, if there is any problems, make the parameter: num_MMD_NCA_Groups of "MMD_NCA_Dataset" smaller.
+
+And for now, the dataloader may use a large memory of your cpu. 
+
+If there is any problem, make the parameter: num_MMD_NCA_Groups of "MMD_NCA_Dataset" smaller.
 
 ### Dataset:
 I clean the dance dataset of https://arxiv.org/abs/1801.07388
