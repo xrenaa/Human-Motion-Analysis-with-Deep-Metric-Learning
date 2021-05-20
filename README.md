@@ -23,7 +23,7 @@ I clean the dance dataset of https://arxiv.org/abs/1801.07388
 
 The cleaned dataset is provided here:
 
-https://drive.google.com/file/d/17mUfFjPCZFyZaEyM7NwpLEptg3Vo9DuU/view?usp=sharing
+https://drive.google.com/file/d/1-H0ywex6KhA68MPiU7i5Apde_MzXg_vK/view?usp=sharing
 
 The dataset contains 16 classes of dance. It contain 51858 sequence.
 The key of the json file is "0","1",.....,"15"
