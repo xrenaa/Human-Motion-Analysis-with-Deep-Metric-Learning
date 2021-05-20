@@ -21,7 +21,7 @@ If there is any problem, make the parameter: num_MMD_NCA_Groups of "MMD_NCA_Data
 ### Dataset:
 I clean the dance dataset of https://arxiv.org/abs/1801.07388
 
-The cleaned dataset is provided here:
+The cleaned dataset is provided here (update the old link):
 
 https://drive.google.com/file/d/1-H0ywex6KhA68MPiU7i5Apde_MzXg_vK/view?usp=sharing
 
